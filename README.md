@@ -10,4 +10,4 @@ All examples are located in the `ru.dmerkushov.loghelper.examples` package.
 Current examples
 ----------------
 
-* `Howtouse_DailyRollingFileAppenderExt` - Usage of `ru.dmerkushov.loghelper.log4j.extend.DailyRollingFileAppenderExt`
+* `Howtouse_DailyRollingFileAppenderExt` - Usage of `ru.dmerkushov.loghelper.log4j.extend.DailyRollingFileAppenderExt`. It also makes use of the `log4j_DailyRollingFileAppenderExt.xml` file
