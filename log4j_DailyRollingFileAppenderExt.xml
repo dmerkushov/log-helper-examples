@@ -7,8 +7,8 @@
 	<!-- The new FILE appender configuration - logs older than 5 minutes (300 seconds) will be deleted -->
 	<appender name="FILE" class="ru.dmerkushov.loghelper.log4j.extend.DailyRollingFileAppenderExt">
 		<param name="File" value="logfile-${user.name}.log" />
-		<param name="DatePattern" value="'.'yyyy-MM-dd" />
-		<param name="KeepOldLogsSeconds" value="300" />		<!-- default is 604800 -->
+		<param name="DatePattern" value="'.'yyyy-MM-dd_HH-mm" />
+		<param name="KeepOldLogsSeconds" value="300" />		<!-- default is 604800 (7 days) -->
 		<layout class="org.apache.log4j.PatternLayout">        
 			<param name="ConversionPattern" value="%d [%t] %-5p %c - %m%n" />
 		</layout>
